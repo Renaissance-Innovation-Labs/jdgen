@@ -10,8 +10,7 @@ The primary objective of JDGEN is to assist job recruiters and companies in gene
 
 ## Screenshots.
 
-![Form Input](src/assets/images/Jdgen-1.png)
-![Generating JD](src/assets/images/Jdgen-2.png)
+![Form Input](src/assets/images/Jdgen-1.png) ![Generating JD](src/assets/images/Jdgen-2.png)
 ![Dark mode preview](src/assets/images/Jdgen-3.png)
 
 ## Get Started
@@ -172,7 +171,8 @@ Step 2: Create a JobDescription component where JDGEN wigdet can be mounted on
       };
    }, []);
 
-// the data-hide-button attribute hides the default JDGEN-WIDGET button, you need this when you choose to customise your own entry button
+      // the data-hide-button attribute hides the default JDGEN-WIDGET button,
+      // you need this when you choose to customise your own entry button
 
    return (
       <div ref={widgetRef} data-hide-button="true" id="jdgen-widget-root"></div>
