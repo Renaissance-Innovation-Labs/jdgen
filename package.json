@@ -27,6 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "author": "chiomaotu22@gmail.com, https://github.com/dr-oxy",
   "eslintConfig": {
     "extends": [
       "react-app",
