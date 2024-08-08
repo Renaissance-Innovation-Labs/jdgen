@@ -40,14 +40,16 @@ To get started with this repository, follow these steps:
    npm install
    ```
 
-Add .env file
+   Add .env file
 
-```
-REACT_APP_OPEN_API_KEY=sk-xyxyxyxyxyxyxyxyyx
+   ```
+   REACT_APP_OPEN_API_KEY=sk-xyxyxyxyxyxyxyxyyx
 
-```
+   ```
 
-Run development
+   Change root element id to 'jdgen-widet-root'
+
+5. Run development
 
 ```
 
