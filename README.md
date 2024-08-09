@@ -34,20 +34,21 @@ To get started with this repository, follow these steps:
    ```
 
 4. **Set up development environment**
-   Install dependencies
+
+   - Install dependencies
 
    ```
    npm install
    ```
 
-   Add .env file
+   - Add .env file
 
    ```
    REACT_APP_OPEN_API_KEY=sk-xyxyxyxyxyxyxyxyyx
 
    ```
 
-   Change root element id to 'jdgen-widet-root'
+   - Change root element id in index.tsx to 'jdgen-widget-root'
 
 5. Run development
 
@@ -196,7 +197,7 @@ function App() {
 }
 ```
 
-Step 4: Create JobBoard page, createa button and style, reference the customisable button feature by adding the class name 'jd-widget-trigger'
+Step 4: Create JobBoard page, create a button and style, reference the customisable button feature by adding the class name 'jd-widget-trigger'
 
 ```
 function JobBoard() {
